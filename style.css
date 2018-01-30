@@ -1,0 +1,46 @@
+body {
+  background-color: rgba(23, 24, 25, 1);
+}
+
+.container {
+  height: 100vh;
+  background-color: rgba(48, 50, 54, 1);
+}
+
+.headerButtons {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #3B3E42;
+  color: #FFFA42;
+  padding: 0.5em 1em;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
+  border: 2px solid;
+  line-height: 1;
+}
+
+.buttonDivs {
+  align-items: center;
+  text-align: center;
+}
+
+#arepaBtn {
+  color: #4FE7FF;
+}
+
+#contactBtn {
+  color: #85FF42;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+    height: 80vh;
+    border: 2px solid #742CFF;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(116, 44, 255, .75);
+}
+
+.derpy {
+  color: #fff
+}
