@@ -17,6 +17,7 @@ body {
   font-size: 24px;
   border: 2px solid;
   line-height: 1;
+  border-radius: 5px;
 }
 
 .buttonDivs {
@@ -37,11 +38,32 @@ body {
     margin: 0 auto;
     height: 80vh;
     border: 2px solid #742CFF;
+    border-radius: 5px;
+    background-color: rgba(116, 44, 255, 0.05);
     margin-top: 20px;
     box-shadow: 0px 0px 15px 5px rgba(116, 44, 255, .75);
     color: #fff
 }
 
 .derpy {
-  color: #fff
+  color: #fff;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+#arepa {
+  height: 50%;
+  width: 50%;
+  border: 5px solid #FF7C2F;
+  border-radius: 5px;
+}
+
+.arepaCenter {
+  float: none;
+  margin: 0 auto;
+  margin: 20px 0 20px 0;
+
+}
+
+.pText {
+  font-size: 18px;
 }
